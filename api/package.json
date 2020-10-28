@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-dev": "nodemon index.js",
+    "test": "mocha tests/*",
+    "debug": "node --nolazy --inspect-brk=9229 index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "install": "^0.13.0",
+    "mocha": "^8.0.1",
+    "mongoose": "^5.9.22",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "npm": "^6.14.6",
+    "serverless-http": "^2.5.0",
+    "supertest": "^4.0.2"
+  }
+}

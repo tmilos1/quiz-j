@@ -1,0 +1,9 @@
+[build]
+  publish = "web/build"
+  functions = "api"
+  
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
